@@ -1,0 +1,44 @@
+:root {
+  --color-green-1: #90be6d;
+  --color-green-2: #739857;
+  --color-green-3: #567241;
+  --color-green-4: #3a4c2c;
+  --color-green-5: #2b3921;
+  --color-green-6: #1d2616;
+  --color-green-7: #0e130b;
+  --color-green-8: #9bc57c;
+  --color-green-9: #96cb8a;
+  --color-green-10: #bcd8a7;
+  --color-green-11: #d3e5c5;
+  --color-green-12: #e9f2e2;
+  --color-green-13: #f4f9f0;
+  --color-white: #fff;
+  --color-black: #555;
+
+  --color-brown-1: #83781b;
+  --color-brown-2: #5c5413;
+  --color-brown-4: #423c0e;
+  --color-brown-5: #272408;
+  --color-brown-6: #1a1805;
+  --color-brown-7: #0d0c03;
+  --color-brown-8: #8f8632;
+  --color-brown-9: #9c9349;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--color-black);
+}

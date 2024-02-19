@@ -1,0 +1,67 @@
+.service {
+  margin: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 18rem;
+  row-gap: 5rem;
+  min-width: 80vh;
+
+  &__container {
+    position: relative;
+    box-shadow: 0 2rem 6rem rgb(0, 0, 0, 0.4);
+    &__img {
+      width: 100%;
+      object-fit: cover;
+    }
+    &__inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 2rem;
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+      &__small-div {
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        &__icon {
+          width: 2.3rem;
+          height: 2.3rem;
+          fill: var(--color-brown-1);
+        }
+        &__h5 {
+          font-size: 1.3rem;
+          margin-left: 1rem;
+        }
+      }
+    }
+    &__icon-heart {
+      width: 3.5rem;
+      height: 3.5rem;
+      position: absolute;
+      top: 2%;
+      left: 3%;
+      fill: var(--color-green-7);
+    }
+    &__button1 {
+      font-size: 1.8rem;
+      padding: 1rem 3rem;
+      background-image: linear-gradient(
+        to right,
+        var(--color-brown-1),
+        var(--color-green-9)
+      );
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
+.photography {
+  height: 54%;
+}
+.knight-drive {
+  height: 55%;
+}
+.game {
+  height: 56%;
+}

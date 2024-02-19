@@ -1,0 +1,52 @@
+.bar {
+  fill: var(--color-brown-6);
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  top: 1%;
+  right: 5%;
+  z-index: 20;
+  opacity: 0;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 4rem;
+  padding: 1.5rem 0;
+  font-weight: 400;
+  display: block;
+  color: var(--color-brown-6);
+}
+.nav {
+  background-color: var(--color-green-12);
+  display: flex;
+  align-items: center;
+  position: relative;
+  &__logo {
+    margin-left: 6rem;
+  }
+}
+.navbar {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+
+  &__links {
+    list-style: none;
+  }
+  &__link {
+    display: inline-block;
+    font-size: 1.7rem;
+    text-decoration: none;
+    &__booknow {
+      background-image: linear-gradient(
+        to right,
+        var(--color-brown-8),
+        var(--color-green-1)
+      );
+      padding: 0.6rem 2rem;
+      margin-right: 6rem;
+      // border-radius: 7px;
+    }
+  }
+}
